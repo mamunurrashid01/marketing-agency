@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gray;
+    padding: 20px auto;
+}
+.menus ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    
+}
+.menus{
+    padding: 20px 5px;
+    
+}
+ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+ul li a{
+    text-decoration: none;
+    color: azure;
+}
+.banner-section{
+    height: 100vh;
+    background-image: url("../image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 45px;
+    color: azure;
+}
+.description{
+    color: azure;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.bg-primary{
+    background-color: red;
+    color: azure;
+}
